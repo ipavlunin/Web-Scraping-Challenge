@@ -69,7 +69,7 @@ def scrape():
     for row in rows:
         title = row.find('td', class_="column-1").text.strip()
         value = row.find('td', class_="column-2").text.strip()
-        table_data.append({'Parameter': title, 'Value': value})
+        table_data.append({'title': title, 'value': value})
 
     table_data
 

@@ -4,11 +4,11 @@
 
 In this project I'm building a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
-### Before You Begin
+### Workplace setup
 
 Created new repository for this project called `web-scraping-challenge`.
 
-Clone the new repository to your computer.
+Cloned the new repository to your computer.
 
 All web scrapping related notebook files, images and app are located in the following folder: `Missions_to_Mars`.
 

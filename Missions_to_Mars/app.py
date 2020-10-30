@@ -38,9 +38,9 @@ def scrape():
     # Update the Mongo database using update and upsert=True
     mission.update({}, mars_web_dict, upsert=True)
 
-    # Redirect back to home page
-    return redirect("/", code =302)
+    # Redirect back to home page (returns code 302)
+    return redirect("/")
 
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=True)

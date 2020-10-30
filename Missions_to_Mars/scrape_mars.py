@@ -3,7 +3,7 @@ import os
 from splinter import Browser
 from bs4 import BeautifulSoup as bs
 import time
-from selenium import webdriver  
+from selenium import webdriver
 import requests as req
 import pandas as pd
 

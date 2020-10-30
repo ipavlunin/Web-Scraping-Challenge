@@ -15,29 +15,29 @@
     <div style="background:transparent !important" class="jumbotron text-center">
     	<h1>Mission to Mars</h1>
 		<p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
-    </div>
-
+	</div>
+	
 	<div style="background:transparent !important" class="jumbotron text-center">
 		<div class="col">
 			<div class='row'>
 				<div class='col-md-12'>
                     <hr>
-                    <h3><b>Latest Mars News:</b></h3>
-                    <h5>{{ mission.news_date }}</h4>
-					<h4>{{ mission.news_title }}</h4>
-					<p>{{ mission.news_text }}</p>
+                    <h2 style="text-align:left;"><b>Latest Mars News:</b></h3>
+                    <h5 style="text-align:left;">{{ mission.news_date }}</h4>
+					<h4 style="text-align:left;">{{ mission.news_title }}</h4>
+					<p style="text-align:left;">{{ mission.news_text }}</p>
 					<hr>
 				</div>	
 			</div>
 			<div class="row">
 				<div class='col-md-8'>
 
-						<h4><b>Featured Mars Image</b></h4>
-						<img src="{{ mission.featured_image_url }}" class='img-responsive' alt="Featured Image">
+						<h2 style="text-align:left;"><b>Featured Mars Image</b></h4>
+						<img src="{{ mission.featured_image_url }}" class='img-responsive' alt="Featured Image" width="100%" height="100%">
 					
 				</div>
 				<div class='col-md-4'>
-					<h4><b>Mars Facts</b></h4>
+					<h3 style="text-align:left;"><b>Mars Facts</b></h4>
 					<div class='table-responsive'>
 						<table border="1" class="dataframe table table-hover table-light">
 							<thead>
